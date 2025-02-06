@@ -1,4 +1,5 @@
 # Approach and Architectural Decisions
+<img src="https://github.com/lavan-fs/git-difference-fe/blob/main/public/images/overal.png?raw=true" alt="Overall  Approach and Architectural Decisions">
 
 ## Technology Choices
 
@@ -38,23 +39,23 @@ The backend follows a RESTful service architecture, exposing endpoints to retrie
 ## Future Improvements
 
 1. **Caching System for Performance**
-    - Implement Redis or in-memory caching to store frequently accessed commit details and diffs.
-    - Reduce API calls to GitHub and improve response times.
+   - Implement Redis or in-memory caching to store frequently accessed commit details and diffs.
+   - Reduce API calls to GitHub and improve response times.
 
 2. **Webhook Integration for Real-time Updates**
-    - Integrate GitHub Webhooks to update commit information in real-time.
-    - Allow instant updates when a new commit is pushed.
+   - Integrate GitHub Webhooks to update commit information in real-time.
+   - Allow instant updates when a new commit is pushed.
 
 3. **Advanced Diff Analysis**
-    - Improve patch parsing to include renamed, moved, and binary files.
-    - Enhance hunk processing to better visualize inline changes.
+   - Improve patch parsing to include renamed, moved, and binary files.
+   - Enhance hunk processing to better visualize inline changes.
 
 4. **Authentication for Higher Rate Limits**
-    - Implement OAuth authentication to use GitHub API with higher rate limits.
-    - Allow users to authenticate and fetch private repositories.
+   - Implement OAuth authentication to use GitHub API with higher rate limits.
+   - Allow users to authenticate and fetch private repositories.
 
 5. **Logging & Monitoring**
-    - Integrate logging (e.g., Logback, ELK stack) for debugging and monitoring API usage.
-    - Add request tracking for performance insights.
+   - Integrate logging (e.g., Logback, ELK stack) for debugging and monitoring API usage.
+   - Add request tracking for performance insights.
 
 
