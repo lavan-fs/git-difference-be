@@ -4,6 +4,9 @@
 
 This project is a backend service for analyzing and displaying differences between Git commits. It is built using Java and Spring Boot, providing RESTful APIs to fetch commit details and differences from GitHub repositories.
 
+# Overal Approach and Architecture
+<img src="https://github.com/lavan-fs/git-difference-fe/blob/main/public/images/be-architecture.png?raw=true" alt="BE Approach and Architectural Decisions">
+
 ## Why Java Spring Boot?
 
 Java Spring Boot is chosen for this project due to its robust ecosystem, ease of creating stand-alone applications, and extensive support for building RESTful services. Spring Boot simplifies the development process by providing pre-configured templates and reducing boilerplate code, making it an ideal choice for building scalable and maintainable backend services.
